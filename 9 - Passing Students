@@ -1,0 +1,6 @@
+public Decimal computeTip(Decimal total, Integer percent) {
+    //code here
+    Decimal percentage = Decimal.valueOf(percent)/100;
+    Decimal tip = total*percentage;
+    return tip;
+}
